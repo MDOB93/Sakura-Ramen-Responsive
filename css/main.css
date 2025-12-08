@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.m160 {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.m120 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#sec1 {
+    height: 100vh;
+    background-color: #161618;
+    background-image: url('../img/hero_bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+}
+
+.menu {
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+}
+
+.link_m {
+    font-family: Raleway-Regular;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.link_m a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.link_m a:hover {
+    color: #9f0908;
+    text-decoration: underline;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: #9f0908;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: #b80e0e;
+}
+
+.btn .img_phone {
+    height: 24px;
+    width: 24px;
+}
+
+.head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12%;
+}
+
+h1 {
+    font-family: Raleway-Bold;
+    font-size: 96px;
+}
+
+.head-text p {
+    font-family: Raleway-Regular;
+    font-size: 24px;
+}
+
+#sec2{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.order_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order_h2 h2 {
+    font-family: Raleway-Bold;
+    color: #9F0908;
+    font-size: 80px;
+}
+
+.order_img_txt {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 245px;
+}
+
+.order_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.order_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order_img img {
+    width: 128px;
+    height: 128px;
+}
+
+.order_text {
+    color: #000;
+    font-family: Economica-Bold;
+    font-size: 56px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#sec3 {
+    height: auto;
+    background-color: #161618;
+    background-image: url('../img/section_our_menu_bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_h2 h2 {
+    font-family: Raleway-Bold;
+    color: #9F0908;
+    font-size: 80px;
+    margin-top: 120px;
+}
+
+.menu_img_txt {
+    margin-top: 64px;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.menu_info_all {
+    display: flex;
+    flex-direction: column;
+}
+
+.turnaround {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.menu_info {
+    display: flex;
+    gap: 80px;
+}
+
+.padd {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.menu_img img {
+    width: 352px;
+    height: 352px;
+}
+
+.menu_txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu_txt h3 {
+    font-family: Economica-Bold;
+    font-size: 56px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.menu_txt tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.menu_txt td {
+    font-family: Raleway-Bold;
+    font-size: 32px;
+    color: #675E54;
+    margin-top: 8px;
+}
+
+#sec4 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.adress_txt_map {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.adress_txt h2 {
+    font-family: Raleway-Bold;
+    font-size: 80px;
+    color: #9F0908;
+    margin-top: 120px;
+    margin-bottom: 8px;
+}
+
+.adress_txt p {
+    font-family: Raleway-Regular;
+    font-size: 24px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.adress_txt img {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.adress_map iframe {
+    margin-top: 64px;
+    margin-bottom: 4px;
+    width: 100vw;
+    max-width: 100%;
+    height: 70vh;
+    border: 0;
+}
+
+#sec5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #0A141E;
+    height: 140px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 4px;
+}
+
+.sr_logo_txt img {
+    height: 44px;
+    width: auto;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.m8 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.social-link-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Raleway-Regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Raleway-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Raleway-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Raleway-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Raleway-Regular.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Economica-Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../fonts/Economica-Bold.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/Economica-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Economica-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Economica-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Economica-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Economica-Bold.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../fonts/Raleway-Bold.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Raleway-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Raleway-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Raleway-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Raleway-Bold.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
