@@ -347,3 +347,32 @@ h1 {
     url('../fonts/Raleway-Bold.svg#Raleway') format('svg');
     /* Legacy iOS */
 }
+
+/* Mobile-Version */
+@media(max-width: 375px) {
+    .m160 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .menu {
+        height: 64px;
+    }
+
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .link_m {
+        font-size: 16px;
+    }
+
+    .link_m a {
+        display: none;
+    }
+
+    .btn {
+        display: flex !important;
+    }
+}
