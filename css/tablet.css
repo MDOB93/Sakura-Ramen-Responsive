@@ -1,5 +1,5 @@
 /* Mobile-Version */
-@media(max-width: 1280px) {
+@media(max-width: 1280px) and (min-width: 768px) {
     .m160 {
         margin-left: 16px;
         margin-right: 16px;
