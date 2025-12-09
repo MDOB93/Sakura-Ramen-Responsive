@@ -139,6 +139,10 @@
     }
 
     .foot_img_2 {
+        display: flex;
+    }
+
+    .foot_img_2 {
         height: 40px !important;
         width: 40px !important;
     }
