@@ -1,5 +1,5 @@
 /* Mobile-Version */
-@media(max-width: 375px) {
+@media(max-width: 767px) {
     .m160 {
         margin-left: 16px;
         margin-right: 16px;
@@ -31,7 +31,8 @@
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 44px;
+        text-align: center;
     }
 
     .head-text p {
@@ -45,6 +46,7 @@
 
     .order_h2 h2 {
         font-size: 40px;
+        text-align: center;
     }
 
     .order_img_txt {
@@ -82,8 +84,8 @@
     }
 
     .menu_img img {
-        width: 335px;
-        height: 335px;
+        width: 270px;
+        height: 270px;
     }
 
     .menu_txt h3 {
@@ -91,7 +93,7 @@
     }
 
     .menu_txt tr {
-        gap: 150px;
+        gap: 85px;
     }
 
     .menu_txt td {
