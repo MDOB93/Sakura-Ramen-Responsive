@@ -375,4 +375,48 @@ h1 {
     .btn {
         display: flex !important;
     }
+
+    .head-text {
+        margin-top: 55%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .head-text p {
+        font-size: 16px;
+    }
+
+    .m120 {
+        margin-top: 72px;
+        margin-bottom: 72px;
+    }
+
+    .order_h2 h2 {
+        font-size: 40px;
+    }
+
+    .order_img_txt {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .order_img img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .order_text {
+        margin-top: 8px;
+    }
+
+    .order_text p {
+        font-size: 32px;
+    }
+
+    .menu_h2 h2 {
+        font-size: 40px;
+        margin-top: 72px;
+    }
 }
