@@ -1,4 +1,14 @@
 /* Ultrawide-Version */
 @media(max-width: 3440px) and (min-width: 1920px) {
-    
+    .menu {
+        justify-content: space-around;
+    }
+
+    .adress_map iframe {
+        width: 1920px;
+    }
+
+    #sec5 {
+        justify-content: space-around;
+    }
 }
